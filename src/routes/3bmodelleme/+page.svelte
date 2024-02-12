@@ -24,7 +24,7 @@
 			]}
 		/>
 	</div>
-	<div class="snap-start bg-lightgray">
+	<div class="snap-start">
 		<SliderWithThumbs
 			title="3B Low Poly Şehir Tasarımı"
 			description="Üniversitede aldığım modelleme dersinin ödevi amacıyla gerçekleştirdiğim Low Poly Şehir tasarımı."
