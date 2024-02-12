@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--swiper-theme-color: #e5e5e5;
+	background-color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+}
+
+.bannertext {
+	font-family: 'Cinzel', serif;
+}
+
+.center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.text-stroke-white {
+	-webkit-text-stroke: 0.5px white;
+}
+
+.text-stroke-black {
+	-webkit-text-stroke: 0.5px black;
+}
+
+.border-b-16 {
+	border-bottom-width: 16px;
+}
+
+div[class*='calismalarim-slider-thumb'] .swiper-slide {
+	opacity: 0.4;
+}
+
+div[class*='calismalarim-slider-thumb'] .swiper-slide-thumb-active {
+	opacity: 1;
+}
