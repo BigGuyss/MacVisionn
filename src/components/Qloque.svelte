@@ -47,9 +47,9 @@
 </script>
 
 <div
-	class="flex flex-wrap lg:flex-nowrap lg:items-center justify-evenly h-[calc(100vh-168px)] lg:h-[calc(100vh-136px)]"
+	class="flex flex-wrap lg:flex-nowrap items-center justify-evenly h-[calc(100vh-168px)] md:h-[calc(100vh-136px)]"
 >
-	<div class="pt-6 lg:p-0 {fullscreen ? 'w-full' : 'w-2/5 min-w-96'}">
+	<div class="pt-6 md:p-0 {fullscreen ? 'w-full' : 'md:w-4/5 lg:w-2/5 min-w-96'}">
 		<div class="swiper {`calismalarim-slider-${id}`} {fullscreen ? 'm-0' : 'm-4'}">
 			<div class="swiper-wrapper">
 				{#each slides[genderswitch ? 1 : 0] as slide}
@@ -58,12 +58,10 @@
 						role="button"
 						tabindex="0"
 						on:click={() => {
-							if (window.innerWidth > 768) {
-								toggleFullscreen();
-							}
+							toggleFullscreen();
 						}}
 						on:keydown={(event) => {
-							if (event.key === 'Enter' && window.innerWidth > 768) {
+							if (event.key === 'Enter') {
 								toggleFullscreen();
 							}
 						}}
@@ -71,7 +69,7 @@
 						<img
 							src={slide.image}
 							class="rounded-xl border border-gray {fullscreen
-								? 'h-[calc(100vh-136px)] mx-auto'
+								? 'w-screen lg:w-auto lg:h-[calc(100vh-136px)] mx-auto'
 								: ''}"
 							alt=""
 						/>
@@ -94,7 +92,7 @@
 			</div>
 			<div
 				id="custom-styling"
-				class="flex lg:hidden justify-center items-center pt-2 gap-2 font-bold"
+				class="flex md:hidden justify-center items-center pt-2 gap-2 font-bold"
 			>
 				<span>Erkek</span>
 				<Toggle id="svelte-toggle" name="svelte-toggle" bind:checked={genderswitch} />
@@ -102,16 +100,16 @@
 			</div>
 		</div>
 	</div>
-	<div class="max-w-sm lg:max-w-lg px-4 {fullscreen ? 'hidden' : 'block'}">
-		<h2 class="text-xl text-center font-bold mb-4 pb-4 lg:text-2xl border-b-2 border-b-gray">
+	<div class="max-w-sm md:max-w-md px-4 {fullscreen ? 'hidden' : 'block'}">
+		<h2 class="text-xl text-center font-bold mb-4 pb-4 md:text-2xl border-b-2 border-b-gray">
 			{title}
 		</h2>
-		<p class="pb-20 lg:p-0 text-justify lg:text-xl">
+		<p class="pb-20 md:p-0 text-justify md:text-lg">
 			{description}
 		</p>
 		<div
 			id="custom-styling"
-			class="hidden lg:flex justify-center items-center gap-2 pt-16 font-bold"
+			class="hidden md:flex justify-center items-center gap-2 md:pt-8 lg:pt-16 font-bold"
 		>
 			<span>Erkek</span>
 			<Toggle id="svelte-toggle" name="svelte-toggle" bind:checked={genderswitch} />

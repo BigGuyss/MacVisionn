@@ -43,21 +43,21 @@
 	});
 </script>
 
-<h1 class="bannertext mx-auto my-5 text-4xl font-bold">MacVisionn</h1>
+<h1 class="bannertext my-5 text-4xl font-bold col-span-1">MacVisionn</h1>
 
-<nav class="flex justify-evenly lg:justify-center">
+<nav class="flex md:gap-5 lg:gap-10 justify-evenly md:justify-center col-span-1">
 	{#each links as { href, text, dropdown, submenu }}
 		{#if dropdown}
 			<div class="relative group">
 				<button
-					class="block rounded-lg text-sm p-2 lg:m-0 lg:p-2 font-bold hover:bg-white hover:border-white hover:text-verydarkblue transition lg:mx-5"
+					class="block rounded-md text-sm p-2 md:m-0 md:p-2 font-bold hover:bg-white hover:border-white hover:text-verydarkblue transition"
 					on:click={() => toggleDropdown()}
 				>
 					{text}
 					<div
 						class="{dropdownIsOpen
 							? 'block'
-							: 'hidden'} absolute left-0 bg-white mt-2 rounded-lg text-verydarkblue border border-gray"
+							: 'hidden'} absolute left-0 bg-white mt-2 rounded-md text-verydarkblue border border-gray"
 					>
 						{#each submenu as subitem}
 							<a
@@ -72,7 +72,7 @@
 		{:else}
 			<a
 				{href}
-				class="block rounded-lg text-sm p-2 lg:m-0 lg:p-2 font-bold hover:bg-white hover:border-white hover:text-verydarkblue transition lg:mx-5"
+				class="block rounded-md text-sm p-2 md:m-0 md:p-2 font-bold hover:bg-white hover:border-white hover:text-verydarkblue transition"
 			>
 				{text}
 			</a>

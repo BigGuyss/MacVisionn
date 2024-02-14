@@ -22,7 +22,7 @@
 	</div>
 	<div class="text-verydarkblue text-justify p-8 border-y-2 border-lightgray lg:mx-auto">
 		<h1 class="text-2xl mb-4">{title}</h1>
-		<h2 class="text-lg">
+		<h2 class="text-md">
 			{text}
 		</h2>
 	</div>

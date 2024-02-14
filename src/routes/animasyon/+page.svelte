@@ -4,16 +4,16 @@
 
 <div class="bg-purple">
 	<div
-		class="sticky lg:fixed top-0 lg:top-28 lg:left-0 lg:w-48 text-center lg:rounded-r-3xl bg-verydarkblue z-40"
+		class="sticky md:fixed top-0 md:top-28 md:left-0 md:w-48 text-center md:rounded-r-3xl bg-verydarkblue z-40"
 	>
-		<h2 class="p-1 lg:p-2 font-bold lg:text-xl">Animasyon</h2>
+		<h2 class="p-1 md:p-2 font-bold md:text-xl">Animasyon</h2>
 	</div>
 
 	<div class="snap-start bg-[url('/animasyon/chibibackground.jpg')] bg-cover">
 		<AnimasyonContent
 			src="x4bt06KywcY"
 			title="Vibes of Chibi"
-			description="Chibi üniversite arkadaşlarımla hayata geçirdiğim bir animasyon karakteridir.  İnsanların ortak hislerini anlatan kimi zaman gündemle ilgili kimi zaman da popüler akımları takip ederek oluşturduğumuz içerikleri takipçilerimizin beğenisine sunduk. Bu projedeki rolüm yazılan içeriklerin kurgularının yapılarak animasyonunu gerçekleştirmekti."
+			description="Chibi üniversite arkadaşlarımla hayata geçirdiğim bir animasyon karakteridir.  İnsanların ortak hislerini anlatan kimi zaman gündemle imdili kimi zaman da popüler akımları takip ederek oluşturduğumuz içerikleri takipçilerimizin beğenisine sunduk. Bu projedeki rolüm yazılan içeriklerin kurgularının yapılarak animasyonunu gerçekleştirmekti."
 			href="https://instagram.com/vibesofchibi"
 			;
 			img_src="/iletisim/instagram.png"

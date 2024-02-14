@@ -5,9 +5,9 @@
 
 <body class="text-verydarkblue">
 	<div
-		class="sticky lg:fixed top-0 lg:top-28 lg:left-0 lg:w-48 text-center lg:rounded-r-3xl bg-verydarkblue text-white z-40"
+		class="sticky md:fixed top-0 md:top-28 md:left-0 md:w-48 text-center md:rounded-r-3xl bg-verydarkblue text-white z-40"
 	>
-		<h2 class="p-1 lg:p-2 font-bold lg:text-xl">3B Modelleme</h2>
+		<h2 class="p-1 md:p-2 font-bold md:text-xl">3B Modelleme</h2>
 	</div>
 
 	<div class="snap-start">
