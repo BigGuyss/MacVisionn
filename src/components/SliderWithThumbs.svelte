@@ -34,9 +34,9 @@
 </script>
 
 <div
-	class="flex flex-wrap lg:flex-nowrap lg:items-center justify-evenly h-[calc(100vh-168px)] md:h-[calc(100vh-136px)]"
+	class="flex flex-wrap lg:flex-nowrap lg:items-center justify-evenly h-[calc(100vh-168px)] lg:h-[calc(100vh-136px)]"
 >
-	<div class="pt-6 md:p-0 {fullscreen ? 'w-full' : 'w-2/5 min-w-96'}">
+	<div class="pt-6 lg:p-0 {fullscreen ? 'w-full' : 'w-2/5 min-w-96'}">
 		<div class="swiper {`calismalarim-slider-${id}`} {fullscreen ? 'm-0' : 'm-4'}">
 			<div class="swiper-wrapper">
 				{#each slides as slide}
@@ -81,11 +81,11 @@
 			</div>
 		</div>
 	</div>
-	<div class="max-w-sm md:max-w-lg px-4 {fullscreen ? 'hidden' : 'block'}">
-		<h2 class="text-xl text-center font-bold mb-4 pb-4 md:text-2xl border-b-2 border-b-gray">
+	<div class="max-w-sm lg:max-w-lg px-4 {fullscreen ? 'hidden' : 'block'}">
+		<h2 class="text-xl text-center font-bold mb-4 pb-4 lg:text-2xl border-b-2 border-b-gray">
 			{title}
 		</h2>
-		<p class="pb-20 lg:p-0 text-justify md:text-xl">
+		<p class="pb-20 lg:p-0 text-justify lg:text-xl">
 			{description}
 		</p>
 	</div>

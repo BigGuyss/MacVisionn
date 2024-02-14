@@ -29,7 +29,7 @@
 </script>
 
 <div
-	class="p-4 grid grid-cols-2 gap-4 items-center justify-items-center md:flex md:justify-center text-darkblue font-bold w-full bg-lightgray"
+	class="p-4 grid grid-cols-2 gap-4 items-center justify-items-center lg:flex lg:justify-center text-darkblue font-bold w-full bg-lightgray"
 >
 	{#each items as item (item.href)}
 		<PortfolioItem href={item.href} src={item.src} alt={item.alt} />

@@ -45,12 +45,12 @@
 
 <h1 class="bannertext mx-auto my-5 text-4xl font-bold">MacVisionn</h1>
 
-<nav class="flex justify-evenly md:justify-center">
+<nav class="flex justify-evenly lg:justify-center">
 	{#each links as { href, text, dropdown, submenu }}
 		{#if dropdown}
 			<div class="relative group">
 				<button
-					class="block rounded-lg text-sm p-2 md:m-0 md:p-2 font-bold hover:bg-white hover:border-white hover:text-verydarkblue transition md:mx-1 lg:mx-5"
+					class="block rounded-lg text-sm p-2 lg:m-0 lg:p-2 font-bold hover:bg-white hover:border-white hover:text-verydarkblue transition lg:mx-5"
 					on:click={() => toggleDropdown()}
 				>
 					{text}
@@ -72,7 +72,7 @@
 		{:else}
 			<a
 				{href}
-				class="block rounded-lg text-sm p-2 md:m-0 md:p-2 font-bold hover:bg-white hover:border-white hover:text-verydarkblue transition md:mx-1 lg:mx-5"
+				class="block rounded-lg text-sm p-2 lg:m-0 lg:p-2 font-bold hover:bg-white hover:border-white hover:text-verydarkblue transition lg:mx-5"
 			>
 				{text}
 			</a>

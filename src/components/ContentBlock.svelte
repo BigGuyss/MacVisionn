@@ -8,19 +8,19 @@
 
 <div
 	class="max-w-7xl mx-auto flex flex-col {reverse
-		? 'md:flex-row-reverse'
-		: 'md:flex-row'} items-center"
+		? 'lg:flex-row-reverse'
+		: 'lg:flex-row'} items-center"
 >
-	<div class="my-8 {reverse ? 'md:ml-12' : 'md:mr-12'}">
+	<div class="my-8 {reverse ? 'lg:ml-12' : 'lg:mr-12'}">
 		<img
 			src={imgSrc}
-			class="mx-auto md:max-w-md lg:max-w-sm {bordered
+			class="mx-auto lg:max-w-sm {bordered
 				? 'border-verydarkblue rounded-full border-8'
 				: 'border-none'}"
 			alt=""
 		/>
 	</div>
-	<div class="text-verydarkblue text-justify p-8 border-y-2 border-lightgray md:mx-auto">
+	<div class="text-verydarkblue text-justify p-8 border-y-2 border-lightgray lg:mx-auto">
 		<h1 class="text-2xl mb-4">{title}</h1>
 		<h2 class="text-lg">
 			{text}

@@ -22,15 +22,15 @@
 </head>
 
 <header
-	class="h-32 md:h-24 grid grid-cols-1 md:grid-cols-2 bg-verydarkblue text-white items-center text-center sticky top-0 z-50"
+	class="h-32 lg:h-24 grid grid-cols-1 lg:grid-cols-2 bg-verydarkblue text-white items-center text-center sticky top-0 z-50"
 >
 	<Navbar />
-	<div class="bg-gray min-h-4 text-verydarkblue text-2xl font-bold md:col-span-2"></div>
+	<div class="bg-gray min-h-4 text-verydarkblue text-2xl font-bold lg:col-span-2"></div>
 </header>
 
 <main
 	id="main"
-	class="h-[calc(100vh-168px)] md:h-[calc(100vh-136px)] snap-y snap-mandatory overflow-auto text-white"
+	class="h-[calc(100vh-168px)] lg:h-[calc(100vh-136px)] snap-y snap-mandatory overflow-auto text-white"
 >
 	<slot />
 </main>

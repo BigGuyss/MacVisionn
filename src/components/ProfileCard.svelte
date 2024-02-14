@@ -1,11 +1,11 @@
 <div
-	class="mx-4 my-8 md:mx-auto md:my-8 flex flex-wrap md:flex-nowrap items-center justify-center bg-verydarkblue max-w-3xl rounded-3xl border-gray border-b-16"
+	class=" my-8 mx-auto lg:my-8 flex flex-wrap lg:flex-nowrap items-center justify-center bg-verydarkblue w-5/6 lg:max-w-3xl rounded-3xl border-gray border-b-16"
 >
-	<div class="mt-4 md:m-0">
+	<div class="mt-4 lg:m-0">
 		<img src="/mertfoto.jpg" class="rounded-full border-8 border-white" width="128px" alt="" />
 	</div>
 	<div>
-		<div class="text-3xl text-lightgray text-center font-bold p-4 md:pt-4">
+		<div class="text-3xl text-lightgray text-center font-bold p-4 lg:pt-4">
 			<h2>Merhaba, Ben Mert!</h2>
 		</div>
 		<div>

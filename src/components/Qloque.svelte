@@ -47,9 +47,9 @@
 </script>
 
 <div
-	class="flex flex-wrap lg:flex-nowrap lg:items-center justify-evenly h-[calc(100vh-168px)] md:h-[calc(100vh-136px)]"
+	class="flex flex-wrap lg:flex-nowrap lg:items-center justify-evenly h-[calc(100vh-168px)] lg:h-[calc(100vh-136px)]"
 >
-	<div class="pt-6 md:p-0 {fullscreen ? 'w-full' : 'w-2/5 min-w-96'}">
+	<div class="pt-6 lg:p-0 {fullscreen ? 'w-full' : 'w-2/5 min-w-96'}">
 		<div class="swiper {`calismalarim-slider-${id}`} {fullscreen ? 'm-0' : 'm-4'}">
 			<div class="swiper-wrapper">
 				{#each slides[genderswitch ? 1 : 0] as slide}
@@ -94,7 +94,7 @@
 			</div>
 			<div
 				id="custom-styling"
-				class="flex md:hidden justify-center items-center pt-2 gap-2 font-bold"
+				class="flex lg:hidden justify-center items-center pt-2 gap-2 font-bold"
 			>
 				<span>Erkek</span>
 				<Toggle id="svelte-toggle" name="svelte-toggle" bind:checked={genderswitch} />
@@ -102,16 +102,16 @@
 			</div>
 		</div>
 	</div>
-	<div class="max-w-sm md:max-w-lg px-4 {fullscreen ? 'hidden' : 'block'}">
-		<h2 class="text-xl text-center font-bold mb-4 pb-4 md:text-2xl border-b-2 border-b-gray">
+	<div class="max-w-sm lg:max-w-lg px-4 {fullscreen ? 'hidden' : 'block'}">
+		<h2 class="text-xl text-center font-bold mb-4 pb-4 lg:text-2xl border-b-2 border-b-gray">
 			{title}
 		</h2>
-		<p class="pb-20 lg:p-0 text-justify md:text-xl">
+		<p class="pb-20 lg:p-0 text-justify lg:text-xl">
 			{description}
 		</p>
 		<div
 			id="custom-styling"
-			class="hidden md:flex justify-center items-center gap-2 pt-16 font-bold"
+			class="hidden lg:flex justify-center items-center gap-2 pt-16 font-bold"
 		>
 			<span>Erkek</span>
 			<Toggle id="svelte-toggle" name="svelte-toggle" bind:checked={genderswitch} />

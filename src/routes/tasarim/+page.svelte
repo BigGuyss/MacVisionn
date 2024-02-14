@@ -49,17 +49,17 @@
 </script>
 
 <div
-	class="sticky md:fixed top-0 md:top-28 md:left-0 md:w-48 text-center md:rounded-r-3xl bg-verydarkblue z-40"
+	class="sticky lg:fixed top-0 lg:top-28 lg:left-0 lg:w-48 text-center lg:rounded-r-3xl bg-verydarkblue z-40"
 >
-	<h2 class="p-1 md:p-2 font-bold md:text-xl">Tasarım</h2>
+	<h2 class="p-1 lg:p-2 font-bold lg:text-xl">Tasarım</h2>
 </div>
 
-<div class="h-[calc(100vh-200px)] flex items-center bg-lightgray md:h-[calc(100vh-136px)]">
+<div class="h-[calc(100vh-200px)] flex items-center bg-lightgray lg:h-[calc(100vh-136px)]">
 	<div class="swiper mySwiper">
 		<div class="swiper-wrapper">
 			{#each slides as slide}
 				<div class="swiper-slide">
-					<img class="md:h-[calc(100vh-136px)] mx-auto" src={slide.src} alt="" />
+					<img class="lg:h-[calc(100vh-136px)] mx-auto" src={slide.src} alt="" />
 					<p class="absolute bottom-16 left-1/2 -translate-x-1/2 bg-black z-40">
 						{slide.description ? slide.description : ''}
 					</p>
