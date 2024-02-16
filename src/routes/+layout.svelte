@@ -30,7 +30,7 @@
 
 <main
 	id="main"
-	class="h-[calc(100vh-168px)] md:h-[calc(100vh-136px)] snap-y snap-mandatory overflow-auto text-white"
+	class="h-[calc(100vh-168px)] md:h-[calc(100vh-136px)] snap-y snap-proximity md:snap-mandatory overflow-auto text-white"
 >
 	<slot />
 </main>

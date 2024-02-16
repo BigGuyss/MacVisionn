@@ -49,7 +49,7 @@
 <div
 	class="flex flex-wrap lg:flex-nowrap items-center justify-evenly h-[calc(100vh-168px)] md:h-[calc(100vh-136px)]"
 >
-	<div class="pt-6 md:p-0 {fullscreen ? 'w-full' : 'md:w-4/5 lg:w-2/5 min-w-96'}">
+	<div class="pt-6 md:p-0 {fullscreen ? 'w-full' : 'md:w-4/5 lg:w-2/5 w-5/6'}">
 		<div class="swiper {`calismalarim-slider-${id}`} {fullscreen ? 'm-0' : 'm-4'}">
 			<div class="swiper-wrapper">
 				{#each slides[genderswitch ? 1 : 0] as slide}

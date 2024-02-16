@@ -12,7 +12,7 @@
 <div
 	class="flex flex-wrap lg:flex-nowrap justify-center items-center lg:items-end h-[calc(100vh-168px)] md:h-[calc(100vh-136px)]"
 >
-	<div class="mt-2 lg:m-0 w-full h-2/4 lg:h-full lg:w-full">
+	<div class="mt-2 lg:m-0 w-full h-2/5 lg:h-full lg:w-full">
 		<iframe
 			class="w-full h-full p-8 lg:p-16"
 			{width}
@@ -25,7 +25,7 @@
 		>
 		</iframe>
 	</div>
-	<div class="px-16 lg:p-16 lg:max-w-lg">
+	<div class=" px-4 lg:p-16 lg:max-w-lg">
 		<h2 class="text-center font-bold pb-4 lg:text-2xl border-b-2 border-b-gray">
 			{title}
 		</h2>
