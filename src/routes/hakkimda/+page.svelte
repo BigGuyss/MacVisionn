@@ -11,7 +11,7 @@
 <ContentBlock
 	imgSrc="/hakkimda/görsel1.jpg"
 	title="Zoom Reklam"
-	text="2020 yılı pandemi döneminin henüz başlarında senaryosunu yazıp çekimlerini gerçekleştirdiğim Zoom Reklam filmini yayınladım. Bu projede ilk kez kamera kullanmayı deneyimledim."
+	text="2020 yılı pandemi döneminin henüz başlarında senaryosunu yazıp çekimlerini gerçekleştirdiğim Zoom Reklam filmini yayınladım. Bu projede ilk kez aynasız kamera kullanmayı deneyimledim."
 	reverse="true"
 />
 <ContentBlock
@@ -22,7 +22,7 @@
 <ContentBlock
 	imgSrc="/hakkimda/görsel3.jpg"
 	title="Qloque Markası"
-	text="2022 yılı bahar döneminde Blender üzerinden 3D modelleme ve animasyon öğrenmeye başladım. Henüz modellemeye dair çok az bilgiye sahipken 3 boyutlu gerçekçi saatler tasarlamaya ve konsept bir saat markası oluşturmaya karar verdim. Modellemeye olan hevesim, projeyi gerçekleştirebileceğim inancını doğurdu ve Hayali Qloque Watch markasını ortaya çıkarmamı sağladı."
+	text="2022 yılı bahar döneminde Blender üzerinden 3D modelleme ve animasyon öğrenmeye başladım. Henüz modellemeye dair çok az bilgiye sahipken 3 boyutlu gerçekçi saatler tasarlamaya ve konsept bir saat markası oluşturmaya karar verdim. Modellemeye olan hevesim, projeyi gerçekleştirebileceğim inancını doğurdu ve Hayali Qloque Watch markasını ortaya çıkardım."
 	reverse="true"
 />
 <ContentBlock
