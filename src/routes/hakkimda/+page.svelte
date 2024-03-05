@@ -6,7 +6,7 @@
 	bordered="true"
 	imgSrc="/mertfoto.jpg"
 	title="Merhaba, Ben Mert Can Ödemiş!"
-	text="Yeni tanıştığım insanlardan bana Mert olarak hitap etmelerini istiyorum böylesi kulağa daha hoş geliyor dolayısıyla bana Mert diyebilirsin. İstanbul Aydın Üniversitesi, Yeni Medya ve İletişim bölümünden yeni mezun oldum. Bu bölümü seçmemin amacı güçlü olduğunu düşündüğüm yaratıcı tarafımı öne çıkararak başarılı işler ortaya koymaktı. Zihnimde tasarladığımı gerçeğe dönüştürmek en büyük mutluluk kaynağım. Bu motivasyonla üniversite hayatım boyunca video ve tasarım alanlarında işler yapmaya çalıştım."
+	text="Yeni tanıştığım insanlardan bana Mert olarak hitap etmelerini istiyorum böylesi kulağa daha hoş geliyor dolayısıyla bana Mert diyebilirsin. İstanbul Aydın Üniversitesi, Yeni Medya ve İletişim bölümünden 2023 yılında mezun oldum. Bu bölümü seçmemin amacı güçlü olduğunu düşündüğüm yaratıcı tarafımı öne çıkararak başarılı işler ortaya koymaktı. Zihnimde tasarladığımı gerçeğe dönüştürmek en büyük mutluluk kaynağım. Bu motivasyonla üniversite hayatım boyunca video ve tasarım alanlarında işler yapmaya çalıştım."
 />
 <ContentBlock
 	imgSrc="/hakkimda/görsel1.jpg"
